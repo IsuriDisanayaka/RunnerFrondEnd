@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: ./dockerFiles/DockerFile
+    image: client
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client:/app
+    container_name: client-app
+    command: npm start
