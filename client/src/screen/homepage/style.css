@@ -1,0 +1,142 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.popup {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+.popup input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  }
+  
+.popup button {
+  width: 50%;
+  max-width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #008CBA;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+.popup button:hover {
+  background-color: #006F8F;
+  }
+.close-button {
+    padding-left: 438px;
+    width: 10px;
+    height: 14px;
+    cursor: pointer;
+  }
+.logo {
+  width: 62px;
+  height: 65px;
+ }
+
+.title {
+  flex-grow: 1;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-Family: fantasy;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  width: 150px;
+
+}
+
+.button.clicked {
+  color: white;
+  background-color: red;
+}
+.buttonContainer {
+  position: relative;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.appBar{
+  height: 80px;
+  width: 100%;
+
+}
+.content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBF0F3;
+}
+
+.runnerImg {
+  
+    width: 873px;
+    height: 773px;
+}
+.welcome{
+  justify-content: center;
+  color:#052f3d;
+  font-Family:fanasy;
+  font-Stretch:expanded;
+  font-Size:200px;
+  font-Style:bold;
+  position: absolute;
+  top: 24%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  margin-top: auto; 
+  text-align: center;
+}
+.mainParagraph{
+  color: #005976;
+  font-Family: serif;
+  font-Stretch: expanded;
+  font-Size: 70px;
+  font-Style: bold;
+  position: absolute;
+  top: 59%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  margin-top: auto;
+  text-align: center;
+    
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 35px; 
+}
