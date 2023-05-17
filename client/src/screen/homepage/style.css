@@ -21,8 +21,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  }
-  
+}
+
 .popup input {
   width: 100%;
   margin-bottom: 10px;
@@ -30,8 +30,8 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-  }
-  
+}
+
 .popup button {
   width: 50%;
   max-width: 200px;
@@ -39,55 +39,59 @@
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #008CBA;
+  background-color: #008cba;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
-  }
-  
+}
+
 .popup button:hover {
-  background-color: #006F8F;
-  }
+  background-color: #006f8f;
+}
 .close-button {
-    padding-left: 438px;
-    width: 10px;
-    height: 14px;
-    cursor: pointer;
-  }
+  padding-left: 438px;
+  width: 10px;
+  height: 14px;
+  cursor: pointer;
+}
 .logo {
   width: 62px;
   height: 65px;
- }
+}
 
 .title {
-  flex-grow: 1;
   font-weight: bold;
   letter-spacing: 1px;
-  font-Family: fantasy;
+  font-family: fantasy;
 }
 
 .button {
   color: white;
   background-color: black;
   width: 150px;
+}
+.logout-icon {
+  color: white;
 
+  background-color: #212121;
+  width: 65px;
+  height: 32px;
 }
 
 .button.clicked {
   color: white;
   background-color: red;
 }
-.buttonContainer {
-  position: relative;
+.button-container {
+  position: absolute;
   right: 0;
   display: flex;
   justify-content: space-between;
   margin: 20px;
 }
-.appBar{
+.appBar {
   height: 80px;
   width: 100%;
-
 }
 .content {
   padding: 20px;
@@ -95,35 +99,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #EBF0F3;
+  background-color: #ebf0f3;
 }
 
 .runnerImg {
-  
-    width: 873px;
-    height: 773px;
+  width: 873px;
+  height: 773px;
 }
-.welcome{
+.welcome {
   justify-content: center;
-  color:#052f3d;
-  font-Family:fanasy;
-  font-Stretch:expanded;
-  font-Size:200px;
-  font-Style:bold;
+  color: #052f3d;
+  font-family: fanasy;
+  font-stretch: expanded;
+  font-size: 200px;
+  font-style: bold;
   position: absolute;
   top: 24%;
   left: 65%;
   transform: translate(-50%, -50%);
   align-items: center;
-  margin-top: auto; 
+  margin-top: auto;
   text-align: center;
 }
-.mainParagraph{
+.mainParagraph {
   color: #005976;
-  font-Family: serif;
-  font-Stretch: expanded;
-  font-Size: 70px;
-  font-Style: bold;
+  font-family: serif;
+  font-stretch: expanded;
+  font-size: 70px;
+  font-style: bold;
   position: absolute;
   top: 59%;
   left: 67%;
@@ -131,12 +134,11 @@
   align-items: center;
   margin-top: auto;
   text-align: center;
-    
 }
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-size: 35px; 
+  font-size: 35px;
 }
